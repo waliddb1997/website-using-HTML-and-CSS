@@ -1,0 +1,779 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* =============================section navbar ======================================*/
+
+
+header {
+    /* background-color: blue; */
+    height: 65px;
+}
+
+.navbar {
+    /* background-color: rgb(151, 49, 49); */
+    height: 100%;
+    width: 80%;
+    margin-inline: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar img{
+    margin-left: 50px;
+    width: 270px;
+}
+
+.listes-navbar{
+    display: flex;
+    gap: 25px;
+    margin-right: 75px;
+    
+
+    
+
+}
+
+.listes-navbar a{
+    text-decoration: none;
+    color: #ababab;
+    font-family: 'Roboto',Arial,sans-serif;
+    
+}
+
+#about-us{
+    color: #00b39b;
+
+}
+
+.listes-navbar a:hover{
+    color: #00b39b;
+}
+
+/* ========================================section about ========================================*/
+
+
+.about-us{
+    /* background-color: aqua; */
+    width: 73vw;
+    margin-inline: auto;
+    padding: 40px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.paragraphe{
+    display: flex;
+    gap: 15px;
+    
+    
+}
+
+.about-us h1{
+    color: #00b39b;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 375;
+    font-size: 35px;
+    color: #00ccb1;
+}
+
+
+.paragraphe p{
+    font-weight: 400;
+    color: #747477;
+    line-height: 27px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 17px;
+    padding: 16px 0;
+}
+
+
+/* ======================================== flexx section sevices-for-all ========================================*/
+
+
+.sevices-for-all{
+    /* background-color: brown; */
+    width: 75vw;
+    margin-inline: auto;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-inline: auto;
+    
+
+}
+
+
+/* ========================================section sevices-for-patients ========================================*/
+.for-patient{
+    background: #00ccb1;
+    width: 22vw;
+    padding: 35px;
+    margin: 50px 0px;
+    border-radius: 10px;
+    line-height: 32px;
+    
+    
+}
+
+.for-patient h2,h1{
+    color: rgba(255, 255, 255, 0.87);
+    font-family: cursive;
+}
+
+.for-patient h2{
+    
+    font-size: 1.11em;
+}
+
+#contry-selects{
+    margin-top: 70px;
+    background-color:transparent;
+    border: none;
+    color: #fff;
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+#contry-selects option {
+    color: #000;
+}
+
+/* ========================================section sevices-for-doctors ========================================*/
+
+
+.for-doctors{
+    background-color: #3d83df;
+    width: 22vw;
+    padding: 35px;
+    margin: 50px 0px;
+    border-radius: 10px;
+    line-height: 32px;
+}
+
+.for-doctors h2,h1{
+    color: rgba(255, 255, 255, 0.87);
+    font-family: cursive;
+}
+
+.for-doctors h2{
+    
+    font-size: 1.11em;
+}
+
+#contry-selects-doctors{
+    margin-top: 100px;
+    background-color:transparent;
+    border: none;
+    color: #fff;
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+#contry-selects-doctors option {
+    color: #000;
+}
+
+
+
+/* ========================================section sevices-for-For clinics ========================================*/
+
+
+
+.for-clinics{
+    background-color: #1b2734;
+    width: 22vw;
+    padding: 35px;
+    margin: 50px 0px;
+    border-radius: 10px;
+    line-height: 32px;
+
+}
+
+.for-clinics h2,h1{
+    color: rgba(255, 255, 255, 0.87);
+    font-family: cursive;
+}
+
+.for-clinics h2{
+    
+    font-size: 1.11em;
+}
+
+#contry-selects-specalité{
+    margin-top: 16px;
+    background-color:transparent;
+    border: none;
+    color: #fff;
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+#contry-selects-specalité option {
+    color: #000;
+}
+
+
+#contry-selects-more-specalite{
+    margin-top: 19px;
+    background-color:transparent;
+    border: none;
+    color: #fff;
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+
+
+/* ========================================section sevices company ========================================*/
+.global-company{
+
+    /* background-color: #5edf3d; */
+    display: flex;
+    width: 75vw;
+    justify-content: space-between;
+    
+
+
+}
+
+.global-company h1{
+    color: #00b39b;
+    font-size: 28px;
+    font-family: Work Sans,Arial,sans-serif;
+}
+
+.companys{
+/* background-color: #3d83df; */
+display: flex;
+    width: 50vw;
+    flex-wrap: wrap;
+    width: 48vw;
+    gap: 0px;
+    gap: 45px;
+    margin-right: 25px;
+
+}
+
+.companys li {
+    list-style-type: none;
+    
+}
+
+.companys li a svg path{
+    fill: hsla(0,0%,67%,.7);
+}
+
+.companys li:hover a svg #saida{
+fill: #6D9AB4;
+}
+
+.companys li:hover a svg #rhayem{
+    fill:#59CC79;
+}
+
+.companys li:hover a svg path{
+    fill: #00b39b;
+}
+
+.companys li:hover a svg #walid {
+    
+    fill: #8AD223;
+    
+}
+.companys li:hover a svg #dabb{
+   fill: #01A3D4;;
+}
+
+
+/* ========================================section sevices personnne-world ========================================*/
+
+
+.entrepreneurial{
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    height: 44vw;
+    margin-top: 55px;
+}
+
+.world-personn-socal{
+    /* border: 5px solid red; */
+    height: 100%;
+    width: 75%;
+    margin-inline: auto;
+    display: flex;
+
+    /* display: flex; */
+    
+}
+
+/* ========================================section sevices personnne-world  lleeeeffffttt ========================================*/
+
+
+.world{
+    /* background-color: rgb(14, 48, 158); */
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.world h1{
+    
+    font-size: 31px;
+    margin: 1.2em 23px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    /* margin-right: 46px; */
+    color: #00b39b;
+}
+
+.world p{
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    margin: -1.4em 25px;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+}
+
+.world  .cover-logo{
+   /* position: absolute; */
+   position: absolute;
+    /* width: 30vw; */
+    /* left: 20vw; */
+    margin: 14.6em -107px;
+    clip: rect(7px,35vw,49.9vh,0px);
+}
+
+/* ========================================section sevices personnne-world righttttt========================================*/
+
+.pesonne-social{
+    /* border: 10px solid blueviolet; */
+    /* background-color: blueviolet; */
+    display: flex;
+    gap: 18px;
+    width: inherit;
+}
+
+
+.right-social{
+    /* background-color: #1b2734; */
+    /* margin-right: 32px; */
+    margin-right: 0px;
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.left-social{
+    /* background-color: #59CC79; */
+    padding-right: 190px;
+    margin-right: 17px;
+    margin-left: -80px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding-left: 85px;
+}
+
+/* ========================================les element qui en lefffttt========================================*/
+
+
+/* ========================================les element qui en lefffttt haut========================================*/
+.left-social .appointments{
+    /* border: 2px solid black; */
+    background-color: #fff;
+    margin-right: -188px;
+    padding-left: 94px;
+    margin-top: 20px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.left-social .appointments h3{
+    font-size: 1.4em;
+    color: #00b39b;
+    margin: 0.5em 0px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    margin-left: -66px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.left-social .appointments p{
+    
+    font-size: 0.829374em;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    text-align: center;
+    /* text-align: start; */
+    position: absolute;
+    padding-right: 89px;
+    padding-top: 122px;
+}
+
+
+.left-social .appointments img{
+    margin-right: 92px;
+}
+
+/* ========================================les element qui en lefffttt basssssss========================================*/
+
+
+
+
+.left-social .active-doctors{
+    /* border: 2px solid black; */
+    background-color: #fff;
+    margin-right: -188px;
+    padding-left: 94px;
+    margin-top: 20px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.left-social .active-doctors h3{
+    font-size: 1.4em;
+    color: #00b39b;
+    margin: 0.5em 0px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    margin-left: -66px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.left-social .active-doctors p{
+    font-size: 0.829374em;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    text-align: center;
+    /* text-align: start; */
+    position: absolute;
+    padding-right: 89px;
+    padding-top: 122px;
+}
+
+
+.left-social .active-doctors img{
+    margin-right: 92px;
+}
+
+
+
+
+/* ========================================les element qui en right========================================*/
+
+
+/* ========================================les element qui en right haut========================================*/
+
+
+
+
+.right-social .countries{
+    /* border: 2px solid black; */
+    background-color: #fff;
+    margin-right: 0px;
+    margin-right: -4px;
+    margin-left: -18px;
+    padding-left: 0px;
+    margin-top: 47px;
+    padding-bottom: 32px;
+    padding-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.right-social .countries h3{
+    font-size: 1.5em;
+    color: #00b39b;
+    margin: 0.4em 11px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    margin-left: 15px;
+    text-align: center;
+    
+}
+
+.right-social .countries p{
+    margin-right: 12px;
+    font-size: 0.8em;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    text-align: center;
+    line-height: 1.5em;
+    margin-top: 4px;
+}
+
+
+.right-social .countries img{
+    margin-right: 1px;
+}
+
+
+
+/* ========================================les element qui en right bassss========================================*/
+
+
+
+
+.right-social .patientss{
+    /* border: 2px solid black; */
+    background-color: #fff;
+    margin-right: -5px;
+    margin-left: -16px;
+    padding-left: 8px;
+    margin-top: 20px;
+    padding-bottom: 59px;
+    padding-top: 66px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.right-social .patientss h3{
+    font-size: 1.5em;
+    color: #00b39b;
+    margin: 0.4em 11px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.right-social .patientss p{
+    margin-right: 3px;
+    font-size: 0.729374em;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    text-align: center;
+}
+
+
+.right-social .patientss img{
+    margin-right: 1px;
+}
+
+
+
+/* ========================================section emprouve ========================================*/
+
+
+
+
+.emprove{
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    align-items: center;
+}
+
+.emprove .improve-liv{
+    /* background-color: #1b2734; */
+    text-align: center;
+    padding-top: 90px;
+}
+
+.emprove .improve-liv h1{
+    font-size: 1.9em;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    line-height: 130%;
+}
+
+.emprove .improve-team{
+    /* background-color: violet; */
+    text-align: center;
+}
+
+.emprove .improve-team p{
+    line-height: 1.7142857143;
+    margin: 0em 24px;
+    font-size: .875em;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-bottom: 20px;
+
+}
+
+
+/* ==================================================================== */
+
+/* Galerie Style ======================================================= */
+
+.galerie{
+    padding: 50px calc((75vw - (22vw *3) - (20px * 2))/2);
+    /* background-color: rgba(218, 127, 127, 0.334); */
+    width: 75vw;
+    margin: 0 auto;
+    
+  
+    /* fles proprety */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+  
+  .galerie .card{
+    border: 1px solid rgba(92, 92, 92, 0.048);
+    width: 22vw;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .galerie .card:hover{
+    box-shadow: -1px 4px 56px -15px rgba(0,0,0,0.62);
+  -webkit-box-shadow: -1px 4px 56px -15px rgba(0,0,0,0.62);
+  -moz-box-shadow: -1px 4px 56px -15px rgba(0,0,0,0.62);
+  }
+  
+  .galerie .card img{
+    width: 100%;
+  }
+  
+  .galerie .card div{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 15px;
+    align-items: baseline;
+    padding: 10px;
+  }
+  
+  .galerie .card button{
+    background-color: rgb(4, 62, 171);
+    font-size: 12px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+
+
+  
+/* ==================================================================== */
+
+/* Sounds Style ======================================================= */
+
+.Sounds{
+    /* background-color: #3d83df; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.Sounds .sound-sounds h1{
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.Sounds .sound-see {
+    padding: 0px 22px;
+}
+
+.Sounds .sound-see .button{
+    /* padding: 10px 22px; */
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    border: none;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+
+/* ==================================================================== */
+
+/* foooter Style ======================================================= */
+
+.fot-er{
+    /* background-color: #00b39b; */
+    padding-top: 23px;
+    padding-bottom: 6px;
+}
+
+.fot-er .fotter{
+    /* background-color: #cf1d1d; */
+    width: 75vw;
+    margin-inline: auto;
+}
+
+.fot-er .fotter p{
+    padding: 8px 135px;
+    margin-bottom: 0.4em;
+    font-size: 12px;
+    color: #ababab;
+}
+
+.fot-er .fotter2{
+    /* background-color: aqua; */
+    width: 80vw;
+    margin-inline: auto;
+}
+
+.fot-er .fotter2 p{
+    padding: 3px 135px;
+    margin-bottom: 0.4em;
+    font-size: 12px;
+    color: #ababab;
+    text-align: center;
+}
+
